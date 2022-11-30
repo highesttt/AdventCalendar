@@ -1,0 +1,91 @@
+# GUI items
+items:
+  # The item used to represent days that were unclaimed and are now expired
+  unclaimed-past: 'EXPLOSIVE_MINECART'
+  # The item used to represent the current day if it was unclaimed
+  unclaimed-present: 'STORAGE_MINECART'
+  # The item used to represent days that were unclaimed and have not yet passed
+  unclaimed-future: 'POWERED_MINECART'
+  # The item used to represent days that were claimed and are now expired
+  claimed-past: 'MINECART'
+  # The item used to represent the current day if it was claimed
+  claimed-present: 'MINECART'
+
+  # Set this to true to enchant current-day items
+  enchant-current-day: true
+  # Set this to true to enchant claimed items
+  enchant-claimed: false
+  # Set this to true to enchant past items
+  enchant-past: false
+
+  # Set this to true to allow players from claiming expired days
+  allow-expired: false
+
+  # Item names (use %day% for the day number)
+  name:
+    unclaimed-past: '&cDay %day% &8&o(Expired)'
+    unclaimed-present: '&6Day %day% &8&o(Unclaimed)'
+    unclaimed-future: '&7Day %day% &8&o(Unclaimed)'
+    claimed-past: '&aDay %day% &8&o(Claimed)'
+    claimed-present: '&2Day %day% &8&o(Claimed)'
+  # Item lores (use %day% for the day number and %nl% for a new line)
+  lore:
+    unclaimed-past: '&7&oExpired!'
+    unclaimed-present: '&7Click to claim!'
+    unclaimed-future: '&7&oNot Available'
+    claimed-past: '&7&oAlready claimed!'
+    claimed-present: '&7&oAlready claimed!'
+
+# Rewards for each day before christmas
+rewards:
+  1:
+    - 'give %player% minecraft:stone 1'
+  2:
+    - 'give %player% minecraft:stone 2'
+  3:
+    - 'give %player% minecraft:stone 3'
+  4:
+    - 'give %player% minecraft:stone 4'
+  5:
+    - 'give %player% minecraft:stone 5'
+  6:
+    - 'give %player% minecraft:stone 6'
+  7:
+    - 'give %player% minecraft:stone 7'
+  8:
+    - 'give %player% minecraft:stone 8'
+  9:
+    - 'give %player% minecraft:stone 9'
+  10:
+    - 'give %player% minecraft:stone 10'
+  11:
+    - 'give %player% minecraft:stone 11'
+  12:
+    - 'give %player% minecraft:stone 12'
+  13:
+    - 'give %player% minecraft:stone 13'
+  14:
+    - 'give %player% minecraft:stone 14'
+  15:
+    - 'give %player% minecraft:stone 15'
+  16:
+    - 'give %player% minecraft:stone 16'
+  17:
+    - 'give %player% minecraft:stone 17'
+  18:
+    - 'give %player% minecraft:stone 18'
+  19:
+    - 'give %player% minecraft:stone 19'
+  20:
+    - 'give %player% minecraft:stone 20'
+  21:
+    - 'give %player% minecraft:stone 21'
+  22:
+    - 'give %player% minecraft:stone 22'
+  23:
+    - 'give %player% minecraft:stone 23'
+  24:
+    - 'give %player% minecraft:stone 24'
+    - 'give %player% minecraft:dirt 1'
+
+version: 1.0

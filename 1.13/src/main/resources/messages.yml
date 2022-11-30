@@ -1,0 +1,26 @@
+prefix: '&f[&2Advent&4Calendar&f]'
+
+# Usable PlaceHolders for every message: %prefix%, %player%, %year%
+
+# Send message when player does not have permission "adventcalendar.use"
+no-permission: '%prefix% &cYou do not have permission to use this command!'
+
+# Send message when player does not have permission "adventcalendar.reload"
+no-permission-reload: '%prefix% &cYou do not have permission to reload the plugin!'
+# Send message when player successfully reloads the plugin
+message-reload-success: '%prefix% &aSuccessfully reloaded the messages.yml and config.yml files.'
+
+# Send when the player opens the calendar but it is not December
+not-december: '%prefix% &cThe Advent Calendar is only available in December!'
+
+# Calendar GUI title
+inventory-name: '&2Advent&4Calendar'
+
+# Send message when player has already claimed the selected day (You can use %day% for the day of the month)
+reward-already-claimed: '%prefix% &cYou have already claimed this reward!'
+# Send message when player has successfully claimed the selected day (You can use %day% for the day of the month)
+reward-successfully-claimed: '%prefix% &aYou have successfully claimed the reward for day %day%!'
+# Send the message when the reward has expired (You can use %day% for the day of the month)
+reward-expired: '%prefix% &cThe reward has expired.'
+# Send the message when the reward is not yet available (You can use %day% for the day of the month)
+reward-not-available: '%prefix% &cThe reward is not yet available. Please wait until day %day%.'

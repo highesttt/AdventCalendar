@@ -1,0 +1,11 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "cSpell.words": [
+        "MINECART",
+        "minecraft"
+    ],
+    "yaml.schemas": {
+        "https://json.schemastore.org/bukkit-plugin.json": "file:///c%3A/Users/lelon/Desktop/Dev/Java%20Plugins/MCMarket/AdventCalendar/src/main/resources/plugin.yml"
+    },
+    "java.compile.nullAnalysis.mode": "automatic"
+}

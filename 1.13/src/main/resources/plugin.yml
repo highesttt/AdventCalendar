@@ -1,0 +1,7 @@
+main: com.highest.adventcalendar.App
+name: AdventCalendar
+version: 1.0
+commands:
+  calendar:
+    description: Opens the Advent Calendar
+    aliases: [cal, ac, adv, adventcalendar]
